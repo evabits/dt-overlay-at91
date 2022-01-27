@@ -20,8 +20,8 @@
 			arch = "arm";
 			os = "linux";
 			compression = "none";
-			load = <0x22000000>;
-			entry = <0x22000000>;
+			load = <0x21000000>;
+			entry = <0x21000000>;
 			hash-1 {
 				algo = "crc32";
 			};
@@ -36,7 +36,7 @@
 			type = "flat_dt";
 			arch = "arm";
 			compression = "none";
-			load = <0x23000000>;
+			load = <0x20000000>;
 			hash-1 {
 				algo = "crc32";
 			};
